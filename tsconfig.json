@@ -13,12 +13,12 @@
     "noEmitOnError": true,
     "noImplicitThis": true,
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "."
   },
   "include": [
-    "src/**/*.ts",
-    "src/**/*.js",
-    "src/**/*.json"
+    "./**/*.ts",
+    "./**/*.js",
+    "./**/*.json"
   ],
   "exclude": [
     "node_modules/",
@@ -26,8 +26,8 @@
     "dist/",
     ".cache/",
     ".tmp/",
-    "src/admin/",
+    "admin/",
     "**/*.test.*",
-    "src/plugins/**"
+    "plugins/**"
   ]
 }
