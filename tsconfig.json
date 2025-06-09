@@ -13,12 +13,11 @@
     "noEmitOnError": true,
     "noImplicitThis": true,
     "outDir": "dist",
-    "rootDir": "."
+    "rootDir": "src"
   },
   "include": [
-    "./",
-    "./**/*.ts",
-    "./**/*.js",
+    "src/**/*.ts",
+    "src/**/*.js",
     "src/**/*.json"
   ],
   "exclude": [
